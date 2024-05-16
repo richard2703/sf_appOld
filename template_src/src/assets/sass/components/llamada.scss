@@ -1,0 +1,98 @@
+.ios
+{
+    .llamada-otro
+    {   
+        width: 100%;
+        height: 100%;
+        video
+        {
+            opacity: .6;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .llamada-yo
+    {
+        position: absolute;
+        right: 0;
+        top: 80px;
+        z-index: 1000000000000;
+    }
+}
+.md
+{
+    .llamada-otro
+    {
+        height: 100%;
+        video
+        {
+            width: 100%;
+            height: 100%;
+            object-fit: none;
+        }
+    }
+    .llamada-yo
+    {
+        width: 36vw;
+        height: 46vw;
+        position: absolute;
+        right: 10px;
+        top: 80px;
+        video
+        {
+            object-fit: unset;
+            height: 100% !important;
+            width: 100% !important;
+        }
+    }
+    
+}
+
+.flecha
+{
+    position: absolute;
+    height: 25vw;
+    width: 25vw;
+    z-index: 1000000000000;
+    &.top{
+        top: 25px;
+        left: 38%;
+    }
+    &.right{
+        top: 38%;
+        right: 0;
+    }
+    &.down{
+        bottom: 50px;
+        left: 38%;
+    }
+    &.left{
+        left: 0;
+        top: 38%;
+    }
+}
+.controles-llamadas {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    z-index: 1000000000000;
+}
+.controll-camara {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    z-index: 1000000000000;
+}
+.inidcaiones-llamadas 
+{
+    position: absolute;
+    right: 0;
+    bottom: 70px;
+    z-index: 1000000000000;
+}
+.IIV::-webkit-media-controls-play-button,
+.IIV::-webkit-media-controls-start-playback-button {
+    opacity: 0;
+    pointer-events: none;
+    width: 5px;
+}

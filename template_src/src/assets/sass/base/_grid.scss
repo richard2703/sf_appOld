@@ -1,0 +1,140 @@
+.md{
+    .vista{
+        background-color: white;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 100%;
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor-page{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 100%;
+        width: 100%;
+        background: #F9FAFC;
+        padding-bottom: 4vh;
+    }
+    .contenedor-page-tabs{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 100%;
+        width: 100%;
+        background: #F9FAFC;
+        padding-bottom: 4vh;
+    }
+}
+.ios{
+    background-color: white;
+    .vista{
+        background-color: white;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 100%;
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor-page{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 100%;
+        width: 100%;
+        background: #F9FAFC;
+        padding-bottom: 10vh;
+    }
+    .contenedor-page-tabs{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 100%;
+        width: 100%;
+        background: #F9FAFC;
+        padding-bottom: 10vh;
+    }
+}
+
+.ios.device-iphone-x{
+    background-color: white;
+    .vista{
+        background-color: white;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 98%;
+        width: 100% !important;
+        background: #F9FAFC;
+        display: flex;
+        flex-direction: column;
+    }
+    .pb-ios-5{
+        padding-bottom: 3rem !important;
+    }
+}
+
+
+.md .page-content{
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+}
+.page-content{
+    overflow: hidden !important;
+}
+
+.scroll-x{
+    width: 100% !important;
+    overflow-x: scroll !important;
+    // overflow-y: hidden !important;
+    display: -webkit-inline-box !important;
+}
+.scroll-y{
+    width: 100% !important;
+    height: 100% !important;
+    overflow-y: scroll !important;
+}
+
+
+.after-opaco::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+    background-color: black;
+
+}
+.after-color::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+
+}
+.after-opaco2::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+    background-color: #4a4848;
+
+}
+.after-opaco, .after-opaco2{
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+.device-iphone-x{
+    @for $s from 0 to 350{
+        .h-x-#{$s}{ height: #{$s}% !important;	}
+        .h-x-#{$s}vh{ height: #{$s}vh !important;	}
+    }
+}
+

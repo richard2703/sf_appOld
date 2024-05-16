@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>80519246540-8hc2hq8c1ovt7vg3pj26ouas2tct0olt.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.80519246540-8hc2hq8c1ovt7vg3pj26ouas2tct0olt</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBmbQV0QGWsyg-nlbN6HQFoFJ6s72nqZy0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>80519246540</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.social.flow</string>
+	<key>PROJECT_ID</key>
+	<string>globel-1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>globel-1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:80519246540:ios:27ae7486bc8c5db9c1c869</string>
+	<key>DATABASE_URL</key>
+	<string>https://globel-1.firebaseio.com</string>
+</dict>
+</plist>

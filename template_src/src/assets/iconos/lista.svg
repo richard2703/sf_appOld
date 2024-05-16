@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Tab bar/ic/Mi cuenta</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Tab-bar/ic/Mi-cuenta" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-13" transform="translate(4.000000, 0.000000)" stroke="#242424">
+            <path d="M6.5,0.5 L6.5,5.5 C6.5,7.157 5.157,8.5 3.5,8.5 C1.843,8.5 0.5,7.157 0.5,5.5 L0.5,0.5" id="Stroke-1"></path>
+            <path d="M2.5,0.5 L2.5,4.5" id="Stroke-3"></path>
+            <path d="M4.5,0.5 L4.5,4.5" id="Stroke-5"></path>
+            <path d="M4.5498,8.2998 L5.3748,21.5038 C5.4428,22.5858 4.5838,23.4998 3.4998,23.4998 C2.4158,23.4998 1.5568,22.5858 1.6248,21.5038 L2.4498,8.2998" id="Stroke-7"></path>
+            <path d="M14.8965,12.5 L15.4965,21.5 C15.5665,22.59 14.6465,23.5 13.4965,23.5 C12.3865,23.5 11.4965,22.65 11.4965,21.62 L11.4965,21.5 L12.0965,12.5" id="Stroke-9"></path>
+            <path d="M15.4961,12.5 L10.4961,12.5 L11.1641,4.486 C11.3511,2.233 13.2351,0.5 15.4961,0.5 L15.4961,12.5 Z" id="Stroke-11"></path>
+        </g>
+    </g>
+</svg>

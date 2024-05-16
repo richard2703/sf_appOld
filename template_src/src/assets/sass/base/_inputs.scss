@@ -1,0 +1,152 @@
+//para modificar los inputs
+textarea{
+    padding-left: 15px !important;
+}
+
+input, textarea {
+    -webkit-user-select: auto !important;
+    -khtml-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    -o-user-select: auto !important;
+    user-select: auto !important;  
+}
+
+//para modificar los inputs
+textarea{
+    padding-left: 15px !important;
+}
+
+ul{
+    background: transparent !important;
+}
+
+input,
+select{
+    color: #4A4A4A !important;
+    // border-bottom: 1px solid #a8a8a8 !important;
+}
+
+input::placeholder, 
+select::placeholder,
+textarea::placeholder{
+    color: #b6b6b6;
+    font-style: italic !important;
+}
+
+input.buscar{
+    background-color: #F7F7F7!important;
+    border: 1px solid #E0E0E0 !important;
+    border-radius: 20px !important;
+    padding-top: 5px !important; 
+    padding-bottom: 5px !important; 
+    padding-left: 20px !important;
+    padding-right: 5px !important;
+}
+
+.convertidor{
+    border: 1px solid #E0E0E0 !important;
+    padding: 5px !important; 
+}
+
+.money-input{
+    background-color: transparent !important;
+    padding: 10px !important;
+    font-size: 15px !important;
+    color: #dbcad4 !important;
+    font-weight: 0 !important;
+    text-align: start !important;
+    &::placeholder{
+        font-size: 15px !important;
+        color: #dbcad4;
+        font-style: normal !important;
+        text-align: start !important;
+    }
+}
+
+.regular-input{
+    border-bottom: 1px solid #dbcad4 !important;
+    background-color: transparent !important;
+    padding: 10px !important;
+    border-radius: 0px !important;
+    &:focus {
+        border-bottom: 1px solid #262a65 !important;
+    }
+    &::placeholder{
+        color: #b6b6b6;
+    }
+}
+
+.login-input{
+    border-bottom: 1px solid #dbcad4 !important;
+    background-color: transparent !important;
+    padding: 10px !important;
+    border-radius: 0px !important;
+    &:focus {
+        border-bottom: 1px solid #262a65 !important;
+    }
+    &::placeholder{
+        color: #b6b6b6;
+    }
+}
+
+.form-input{
+    border: 1px solid #dbcad4 !important;
+    background-color: white !important;
+    padding: 10px !important;
+    border-radius: 10px !important;
+    &:focus {
+        border: 1px solid #262a65 !important;
+    }
+    &::placeholder{
+        color: #b6b6b6;
+    }
+}
+
+.busqueda-input{
+    padding: 10px !important;
+    border-radius: 0px !important;
+    &::placeholder
+    {
+        color: #b6b6b6;
+    }
+}
+
+.regular-input-white{
+    border-bottom: 1px solid #c9c9c9 !important;
+    padding: 10px !important;
+    border-radius: 0px !important;
+    color:  white !important;
+    &:focus
+    {
+        border-bottom: 1px solid white !important;
+    }
+}
+
+.regular-textarea{
+    border: 1px solid #dbcad4 !important;
+    background-color: white !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    &:focus {
+        border: 1px solid #262a65 !important;
+    }
+    &::placeholder{
+        color: #b6b6b6;
+    }
+}
+
+.regular-input-hidden{
+    border: none !important;
+    height: 0px !important;
+    padding:0px !important;
+    border-radius: 0px !important;
+    color: white !important;
+    &:focus{
+        color: white !important;
+        border-bottom: 1px solid white !important;
+    }
+    &::placeholder{
+        color: white !important;
+    }
+}

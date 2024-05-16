@@ -1,0 +1,37 @@
+.page
+{
+    background: white !important;
+}
+.mapa
+{
+    position: relative;
+    height: 70vw;
+    #obra, #teatros 
+    {
+            height: 100%;
+            width: 100%;
+    }
+}
+.tab-bar-oferta
+{
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+}
+
+.oferta,
+.usuario_card
+{
+    box-shadow: 0px 0px 3px 1px #eaeaea;
+}
+
+// html.with-panel-right-cover .panel-right
+// {
+//     // transform: translate3d(0, 0, 0) !important ;
+// }
+// .panel-right.panel-cover
+// {
+//     transform: translate3d(0,50%,0) !important;
+//     transition-duration: 500ms !important;
+//     width: 100% !important;
+// }

@@ -1,0 +1,92 @@
+.html-100{
+    height: 100vh !important;
+    user-select: none !important;
+}
+
+.ios{
+    margin-top: 10px !important;
+}
+
+.framework7-root{
+    padding-top: 0px !important;
+    user-select: none !important;
+}
+
+.row>.col-auto{
+    width: auto !important;
+}
+
+.row>.col, .row>.col-1, .row>.col-2, .row>.col-3, .row>.col-4, .row>.col-5, .row>.col-6, .row>.col-7, .row>.col-8, .row>.col-9, .row>.col-10, .row>.col-11, .row>.col-12 {
+    width: 100% !important;
+}
+
+
+.userno{
+    user-select: none !important;
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+}
+
+.row{
+    user-select: none !important;
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    // pointer-events: none !important;
+}
+
+@import "cdn/colors";
+
+// ABSTRACTS
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
+@import "abstracts/variables";
+
+// VENDORS
+// BASE
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+@import "base/utilities";
+@import "base/colors";
+@import "base/iconos";
+@import "base/page";
+@import "base/grid";
+@import "base/popup";
+@import "base/inputs";
+@import "base/modales";
+
+// LAYOUT
+// COMPONENTS
+@import "components/componentes";
+@import "components/nav-bar";
+@import "components/llamada";
+@import "components/tab-bar";
+@import "components/modal-select";
+@import "components/modal-aplicar";
+@import "components/photoswipe";
+@import "components/notificacion";
+// PAGES
+@import "pages/inicio";
+@import "pages/mapa";
+@import "pages/buscador";
+@import "pages/detalle_evento";
+@import "pages/detalle_bar";
+@import "pages/menu";
+@import "pages/mi_cuenta";
+@import "pages/mensaje_usuario";
+@import "pages/registro";
+@import "pages/slider_home";
+// THEMES
+
+//CDN
+@import "cdn/utilidades";
+@import "cdn/buttons";
+
+

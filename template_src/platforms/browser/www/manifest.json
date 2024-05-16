@@ -1,0 +1,13 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "SocialFlow",
+  "short_name": "SocialFlow",
+  "version": "com.social.flow",
+  "description": "SocialFlow",
+  "author": "Sustam Apps",
+  "icons": [],
+  "orientation": "portrait",
+  "start_url": "index.html",
+  "theme_color": "#ffffff"
+}

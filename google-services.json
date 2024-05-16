@@ -1,0 +1,947 @@
+{
+  "project_info": {
+    "project_number": "80519246540",
+    "firebase_url": "https://globel-1.firebaseio.com",
+    "project_id": "globel-1",
+    "storage_bucket": "globel-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:65b5a391d11fb00ac1c869",
+        "android_client_info": {
+          "package_name": "com.Colie.Colies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:2f3420306fe48bc2c1c869",
+        "android_client_info": {
+          "package_name": "com.bit.beauty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:af0875a7489f0518c1c869",
+        "android_client_info": {
+          "package_name": "com.bitme.bitme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:52b04362d7c817bdc1c869",
+        "android_client_info": {
+          "package_name": "com.clic.wop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:b4ca24981375c1f0c1c869",
+        "android_client_info": {
+          "package_name": "com.evalua35.evalua35s"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:a56cfe714e15937dc1c869",
+        "android_client_info": {
+          "package_name": "com.fixe.fixes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:9a77ab2c8d014d2dc1c869",
+        "android_client_info": {
+          "package_name": "com.fixetogo.fixetogos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:60e61d410bf212b8c1c869",
+        "android_client_info": {
+          "package_name": "com.geo.empleos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:5f72ccd11ebd4026c1c869",
+        "android_client_info": {
+          "package_name": "com.glogar.glogar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:b23abc6c04f13ddbc1c869",
+        "android_client_info": {
+          "package_name": "com.glogar.glogargps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:20f18bde1cc66c16",
+        "android_client_info": {
+          "package_name": "com.learn.anywhere"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:3e7a762565f5c843",
+        "android_client_info": {
+          "package_name": "com.lelab.sustam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:099763f099a3ca86c1c869",
+        "android_client_info": {
+          "package_name": "com.megabiker.riders"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:d663854ba2303b8bc1c869",
+        "android_client_info": {
+          "package_name": "com.mivia.mivia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:a99407056c65cdbcc1c869",
+        "android_client_info": {
+          "package_name": "com.myenvio.myenvio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:46f4ea2569ada8b6c1c869",
+        "android_client_info": {
+          "package_name": "com.payo.payo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:ec6b51568f34a13dc1c869",
+        "android_client_info": {
+          "package_name": "com.report.reportgps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:26dfe535387cc834c1c869",
+        "android_client_info": {
+          "package_name": "com.shield.shield"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:9442b3f8db15d6d4c1c869",
+        "android_client_info": {
+          "package_name": "com.social.flow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:de2334f87fc4542f",
+        "android_client_info": {
+          "package_name": "com.sustam.camaracomercio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:caa9a3b5902e2079",
+        "android_client_info": {
+          "package_name": "com.sustam.globel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:e9f28dddd8d4db5f",
+        "android_client_info": {
+          "package_name": "com.sustam.lookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:a914071d0e2baf61c1c869",
+        "android_client_info": {
+          "package_name": "com.sustam.reinmex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:d1c8e9f037c0b127",
+        "android_client_info": {
+          "package_name": "com.sustam.secapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:13d7052a561d10e1c1c869",
+        "android_client_info": {
+          "package_name": "com.unilink.unilink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80519246540:android:a340c0e49c92da03c1c869",
+        "android_client_info": {
+          "package_name": "com.washer.washer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqLbJ9gUEODv47380-yTx3ZFvL5iMir5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80519246540-dpp9h9k603u6t0qvm6fe58f01hrcto3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80519246540-ctrted59j42n0vbtm5mr7187uj9eiaus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mivia.mivia"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

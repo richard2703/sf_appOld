@@ -1,0 +1,50 @@
+.botones-entrar
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100000;
+}
+.spaginacion-home
+{
+    bottom: 20% !important;
+    
+}
+
+
+.swiper-pagination-bullet{
+    opacity: .8 !important;
+    background: white !important;
+    border:1px solid  #262a65 !important;
+}
+
+.swiper-pagination-bullet-active{
+    background: #262a65 !important;
+}
+
+.sucursales-slide{
+    .swiper-pagination-bullet-active{
+        background: #f6a81d !important;
+    }
+    
+    .swiper-pagination-bullet{
+        border:1px solid  #f6a81d !important;
+    }
+}
+
+.background
+{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    &::before
+    {
+        content: '';
+        position: absolute;
+        top:0;
+        left: 0;
+        width:100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.878);
+    }
+}

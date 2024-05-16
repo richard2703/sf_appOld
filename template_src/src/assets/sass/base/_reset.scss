@@ -1,0 +1,41 @@
+html, body, #app,.views, .view, .view-main, #view-scanner
+{
+    background: transparent !important;
+} 
+.scanner
+{
+    background: white;
+    &.transparent{
+        background: transparent !important;
+    }
+    .page-content{
+        background: transparent !important;
+    }
+    .row-opciones
+    {
+        position: absolute;
+        bottom: 25px;
+        left: 0;
+    }
+    .boton-redondo
+    {
+        border-radius: 50% !important;
+        min-width: auto !important;
+        min-height: auto !important;
+        height: 80px !important;
+        width: 80px !important;
+        line-height: initial !important;
+        &.boton-azul
+        {
+            border-color:$azul !important;
+        }
+    }
+}
+
+.pswp__button{
+    height: 44px !important;
+}
+
+.pswp__top-bar{
+    top: 30px !important;
+}

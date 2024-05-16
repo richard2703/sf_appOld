@@ -1,0 +1,82 @@
+.mensaje-usuario
+{
+    $color:#E5E6EA;
+    background-color: $color;
+    border-radius: 15px;
+    position: relative;
+    &::before 
+    {
+        content: '';
+        z-index: 0;
+        position: absolute;
+        left: 13px;
+        top: 14px;
+        width: 0;
+        height: 0;
+        border: 27px solid transparent;
+        border-right-color: $color;
+        border-left: 0;
+        border-top: 0;
+        margin-top: -13.5px;
+        margin-left: -27px;
+    }
+}
+.md .mensaje-propio
+{
+    $color: #262a65;
+    background-color: $color;
+    border-radius: 15px;
+    position: relative;
+    &::before 
+    {
+        content: '';
+        z-index: 0;
+        position: absolute;
+        right: 13px;
+        top: 14px;
+        width: 0;
+        height: 0;
+        border: 27px solid transparent;
+        border-left-color: $color;
+        border-right: 0;
+        border-top: 0;
+        margin-top: -13.5px;
+        margin-right: -27px;
+    }
+}
+.ios .mensaje-propio
+{
+    $color: #262a65;
+    background-color: $color;
+    border-radius: 15px;
+    position: relative;
+    &::before 
+    {
+        content: '';
+        z-index: 0;
+        position: absolute;
+        right: 13px;
+        top: 14px;
+        width: 0;
+        height: 0;
+        border: 27px solid transparent;
+        border-left-color: $color;
+        border-right: 0;
+        border-top: 0;
+        margin-top: -14px;
+        margin-right: -27px;
+    }
+}
+.input-mensaje
+{
+    position: absolute;
+    bottom: 0;
+    left:   0;
+}
+
+#mensaje_chat{
+    overflow:  hidden !important;
+    .page-content{
+        position: none !important;
+    }
+}

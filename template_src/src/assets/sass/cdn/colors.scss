@@ -1,0 +1,156 @@
+$menta : #76D3C9;
+$salmon : #fc7f81;
+$azul-1 : #22909e;
+$azul-2: #3B5E6E;
+$gray-super-light : #a7a6a6;
+$gray-super-light-2 : #dbdbdb;
+$gray-light : #757575;
+$gray: #696969;
+$gray-dark : #5f5f5f;
+$azul :  #0BC8FF;
+$naranja: #9b2e00;
+$blanco: white;
+$negro: black;
+$rojo: red;
+$verde: green;
+$verde-2: #06ebb2;
+$rojo-rosado: #DD0A2C;
+$rojo-rosado2: #b60825;
+$app: #7a48c2;
+
+$appro: #ea7fe1;
+$appro2: #ce6cbe;
+$appro2: #dbcad4;
+$azulapp: #004445;
+$apprf: #fc6e63;
+$appve: #59b750;
+$appv: #64ba50;
+$appazu: #027fc2;
+$link: #79b9dd;
+
+
+
+$colors: (
+(appazu,  $appazu),
+
+(azul-1 , #22909e),
+(azul-2, #3B5E6E),
+
+('gray' , gray),
+(gray00 , #eeeeee),
+(gray0 , #dbdbdb),
+(gray001 , #e6e6e6),
+(gray01 , #cacaca),
+(gray1 , #9B9B9B),
+(gray2 , #a7a6a6),
+(gray3 , #717171),
+(silver , #a8a8a8),
+(gray35 , #656665),
+(gray36 , #666666),
+(gray38 , #525252),
+(gray39 , #3d3d3d),
+(gray4 , #313131),
+(gray5 , #252525),
+(gray6 , #373a3c),
+(negro1 , #535658),
+
+
+(azul ,  #05789b),
+(azul0,  #6f73aa),
+(azul1,  #262a65),
+(azul2 ,  #30bced),
+(azul21 ,  rgba(49, 187, 237, 0.267)),
+(fondo,  #edecec),
+(fondo2,  #e8f0f2),
+(fondo3,  #e0e0e0),
+
+
+(ama,  #fce837),
+(amar,  #c0a300),
+(gold,  gold),
+(platinum,  #414141),
+
+// #f82929
+
+(blanco, white),
+(negro, #000000),
+
+(rojo0, #ff9e03),
+(rojo, #f82929),
+(rojo1, #b91619),
+(rojo2, #ec2024),
+
+(verde2, #498a80),
+(verde3, #2c786c),
+(verde4, #4cd77c),
+(verde5, #004445),
+(verde6, #72b606),
+(verde7, #25d366),
+);
+
+// .back-appve-degradado{
+//     background: linear-gradient(136.67deg, #59b750 0%, #9bc951 100%) !important;
+// }
+.back-silver{
+    background: linear-gradient(100deg, #a8a8a8 0%, #e4e4e4 100%) !important;
+}
+.back-gold{
+    background: linear-gradient(100deg, gold 0%, #e4d376   100%) !important;
+}
+.back-platinum{
+    background: linear-gradient(100deg, #414141 0%, #d6d6d6 100%) !important;
+}
+
+@each $color in $colors{
+ 	.color-#{nth($color, 1)}{
+		color: nth($color, 2) !important;
+    }
+	.back-color-#{nth($color, 1)}{
+        background-color: nth($color, 2) !important;
+	}
+}
+
+@each $color in $colors
+{
+    @for $size from 1 to 50{
+        .letra-#{nth($color, 1)}-#{$size}
+        {
+            color: #{nth($color, 2)} !important;
+            font-size: #{$size}px !important;
+        }  
+        @for $p from 0 to 15{
+            .letra-#{nth($color, 1)}-#{$size}-#{$p}vw{
+                color: #{nth($color, 2)} !important;
+                font-size: #{($size+($p/10))}vw !important;
+            }  
+        }      
+         
+    }
+}
+.border-none{border: none !important;}
+
+@each $color in $colors {
+    @for $size from 1 to 20{
+        .border-b-#{nth($color, 1)}-#{$size}
+        {
+            border-bottom: #{$size}px solid #{nth($color, 2)} !important;
+        }       
+        .border-t-#{nth($color, 1)}-#{$size}
+        {
+            border-top: #{$size}px solid #{nth($color, 2)} !important;
+        }       
+        .border-l-#{nth($color, 1)}-#{$size}
+        {
+            border-left: #{$size}px solid #{nth($color, 2)} !important;
+        }       
+        .border-r-#{nth($color, 1)}-#{$size}
+        {
+            border-right: #{$size}px solid #{nth($color, 2)} !important;
+        }       
+        .border-#{nth($color, 1)}-#{$size}
+        {
+            border: #{$size}px solid #{nth($color, 2)} !important;
+        }       
+    }
+}
+

@@ -1,0 +1,241 @@
+button, a
+{
+    -webkit-transition: 350ms ease-in all !important;
+    -moz-transition: 350ms ease-in all !important;
+    -o-transition: 350ms ease-in all !important;
+    transition: 350ms ease-in all !important;
+    box-shadow: none !important;
+    text-transform: none !important;
+    min-width: auto !important;
+    text-decoration: none !important;
+    line-height: initial !important;
+    height: auto !important;
+}
+
+.active-state{
+    -webkit-transition: 0ms all linear !important;
+    -moz-transition: 0ms all linear !important;
+    -o-transition: 0ms all linear !important;
+    transition: 0ms all linear !important;          
+}
+
+button:focus, a:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.button-noborder{
+    border: none !important;
+    border-radius: 0px !important;
+    height: auto !important;
+}
+
+button.boton-verde
+{
+    background: linear-gradient(136.67deg, #4cd77c 0%, #4cd77c 100%) !important;
+    border: 1px solid #4cd77c !important;
+    &.active-state,:hover{
+        .row{
+            color: white !important;
+        }
+        background: #2d814a !important;      
+    }
+}
+
+button.boton-app
+{
+    // background: linear-gradient(136.67deg, #b91619 0%, #b91619 100%) !important;
+    background-color: #004445 !important;
+    border: 1px solid #004445  !important;
+    &.active-state,:hover{
+        .row{
+            color: white !important;
+        }
+        background: #007577 !important;      
+    }
+}
+
+button.boton-azul{
+    background-color: #262a65 !important;
+    border: 1px solid #262a65  !important;
+    &.active-state,:hover{
+        .row{
+            color: white !important;
+        }
+        background: #343657  !important;      
+    }
+}
+
+button.boton-marino
+{
+    background-color: #172b4d !important;
+    border: 1px solid #172b4d  !important;
+    &.active-state,:hover{
+        .row{
+            color: white !important;
+        }
+        background: #03c0c4  !important;      
+    }
+}
+
+button.boton-naranja
+{
+    background-color: #9b2e00 !important;
+    border: 1px solid #9b2e00  !important;
+    &.active-state,:hover{
+        .row{
+            color: white !important;
+        }
+        background: #000000  !important;      
+    }
+}
+
+button.boton-negro
+{
+    background-color: #000000 !important;
+    border: 1px solid #000000  !important;
+    &.active-state,:hover{
+        .row{
+            color: white !important;
+        }
+        background: #3f3f3f  !important;      
+    }
+}
+
+button.boton-rojo
+{
+    background-color: #ec2025 !important;
+    border: 1px solid #ec2025  !important;
+    &.active-state,:hover{
+        .row{
+            color: white !important;
+        }
+        background: #f35356  !important;      
+    }
+}
+
+button.boton-gris
+{
+    background-color: #7c7c7c !important;
+    border: 1px solid #7c7c7c  !important;
+    &.active-state,:hover{
+        .row{
+            color: white !important;
+        }
+        background: #1f1f1f  !important;      
+    }
+}
+
+
+button.boton-app-outline{
+    border: 1px solid #262a65 !important;
+    background-color: transparent !important;
+    &.active-state {
+        .row{
+            color: white !important;
+        }
+        background: #262a65 !important;      
+    }
+}
+
+button.boton-azul-outline{
+    border: 1px solid #262a65 !important;
+    background-color: transparent !important;
+    &.active-state {
+        .row{
+            color: white !important;
+        }
+        background: #262a65 !important;      
+    }
+}
+
+button.boton-app-danger
+{
+    border: 1px solid red !important;
+    background-color: transparent !important;
+    border-radius: 0px !important;
+    &.active-state {
+        .row{
+            color: white !important;
+        }
+        background: red !important;      
+    }
+}
+
+
+button.boton-radio
+{
+    border: none !important;
+    background-color: white !important;
+    border-radius: 50% !important;
+    width: 8vw !important;
+    height: 8vw !important;
+    &.active-state{
+        background: $app !important;      
+    }
+}
+
+button.boton-blanco
+{
+    border: 1px solid white !important;
+    background-color: white !important;
+    &.active-state {
+        background: #cecece !important;      
+    }
+}
+button.boton-transparente
+{
+    border: none !important;
+    background-color: transparent !important;
+    border-radius: 10px !important;
+    &.active-state{
+        background: #cecece !important;      
+    }
+}
+
+button.color-rojo-redondo,
+button.boton-colgar{
+    background-color: $rojo !important;
+    border-color: $rojo !important;
+}
+button.boton-switch{
+    background-color: white !important;
+    border-color: #262262 !important;
+}
+
+button.boton-remove
+{
+    position: absolute !important;
+    height: 30px !important;
+    width: 30px !important;
+    bottom: 3px;
+    right:3px;
+    background-color: white;
+    border:1px solid #2d939c!important;
+    border-radius: 50% !important; 
+    
+}
+button.boton-camara
+{
+    position: absolute !important;
+    height: 45px !important;
+    width: 45px !important;
+    bottom: 0;
+    left:0;
+    background-color: #03A6D7;
+    border: none !important;
+    border-radius: 50% !important; 
+
+}
+button.boton-camara
+{
+    position: absolute !important;
+    height: 45px !important;
+    width: 45px !important;
+    bottom: 0;
+    left:0;
+    background-color: #03A6D7;
+    border: none !important;
+    border-radius: 50% !important; 
+
+}

@@ -1,0 +1,216 @@
+.text-left {text-align: left !important;}
+.text-center {text-align: center !important;}
+.text-right {text-align: right !important;}
+.font-italics{ font-style: italic !important;}
+.text-justify {text-align: justify !important;}
+.text-tittle {text-transform: title};
+.line-height-initial {line-height: initial !important;}
+.z-index-10000{ z-index: 10000;}
+.z-index--10000{ z-index: -10000;}
+.z-index--10000000{ z-index: -10000000; }
+.z-10000000{ z-index: 10000000; }
+.z-1000000000{ z-index: 1000000000; }
+
+.sombra{box-shadow: 0px 0px 3px 0px #bbbbbb !important; }
+//margin importatn
+.ml-auto, .mx-auto, .m-auto{	margin-left: auto 	!important;	}
+.mr-auto, .mx-auto, .m-auto{	margin-right: auto 	!important;	}
+.mt-auto, .my-auto, .m-auto{	margin-top: auto 	!important;	}
+.mb-auto, .my-auto, .m-auto{	margin-bottom: auto !important;	}
+.material-icons{line-height: normal !important;}
+
+.carta{
+	-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+	background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.border-right{
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.border-left{
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.h-100{ height: 100% !important;}
+.w-100{ width: 100% !important;}
+.h-max-100{ max-height: 100% !important;}
+.w-max-100{ max-width: 100% !important;}
+.h-auto{ height: auto !important;}
+.w-auto{ width: auto !important;}
+.h-min-auto{ min-height: auto !important;}
+.w-min-auto{ min-width: auto !important;}
+
+
+.object-fit{ object-fit: cover !important; }
+.object-fit-contain{ object-fit: contain !important; }
+.overflow-hidden {overflow: hidden !important;}
+.fw-400{font-weight: 400 !important;}
+.fw-600{font-weight: 600 !important;}
+.fw-800{font-weight: 800 !important;}
+
+.position-absolute { position: absolute !important;}
+.position-relative { position: relative !important;}
+.opacity-7{opacity: .7;}
+.opacity-6{opacity: .6;}
+.opacity-5{opacity: .5;}
+.opacity-4{opacity: .4;}
+.opacity-3{opacity: .3;}
+.opacity-2{opacity: .2;}
+.brillo-8{filter: brightness(.8);}
+.brillo-7{filter: brightness(.7);}
+.brillo-6{filter: brightness(.6);}
+.brillo-5{filter: brightness(.5);}
+.brillo-4{filter: brightness(.4);}
+.brillo-3{filter: brightness(.3);}
+.brillo-2{filter: brightness(.2);}
+
+.white-space-preline{ white-space: pre-line !important;}
+.display-inline {display: inline !important;}
+.display-inline-flex{ display: inline-flex !important;}
+.display-none { display: none !important;}
+
+.justify-content-start {
+    -webkit-box-pack: start!important;
+    -ms-flex-pack: start!important;
+    justify-content: flex-start!important;
+}
+.justify-content-end {
+    -webkit-box-pack: end!important;
+    -ms-flex-pack: end!important;
+    justify-content: flex-end!important;
+}
+.justify-content-center {
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+.justify-content-between {
+    -webkit-box-pack: justify!important;
+    -ms-flex-pack: justify!important;
+	justify-content: space-between!important;
+}
+.justify-content-around {
+    -ms-flex-pack: distribute!important;
+    justify-content: space-around!important;
+}
+
+.h-100vh{height: 100vh !important;}
+.w-200vw{width: 150vw !important;}
+
+
+@for $s from 0 to 101 {
+	//margins
+	.ml-#{$s}px, .mx-#{$s}px, .m-#{$s}px {	margin-left: #{$s}px !important;	}
+	.mr-#{$s}px, .mx-#{$s}px, .m-#{$s}px {	margin-right: #{$s}px !important;	}
+	.mt-#{$s}px, .my-#{$s}px, .m-#{$s}px {	margin-top:   #{$s}px !important;	}
+    .mb-#{$s}px, .my-#{$s}px, .m-#{$s}px {	margin-bottom: #{$s}px !important;	}
+	//margins
+	.ml-#{$s}vw, .mx-#{$s}vw{	margin-left: #{$s}vw !important;	}
+	.mr-#{$s}vw, .mx-#{$s}vw{	margin-right: #{$s}vw !important;	}
+	.mt-#{$s}vh, .my-#{$s}vh{	margin-top:   #{$s}vh !important;	}
+    .mb-#{$s}vh, .my-#{$s}vh{	margin-bottom: #{$s}px !important;	}
+    
+	.ml-#{$s}, .mx-#{$s}{	margin-left: #{$s}% !important;	}
+	.mr-#{$s}, .mx-#{$s}{	margin-right: #{$s}% !important;	}
+
+	.pl-#{$s}px, .px-#{$s}px, .p-#{$s}px {	padding-left: #{$s}px !important;	}
+	.pr-#{$s}px, .px-#{$s}px, .p-#{$s}px {	padding-right: #{$s}px !important;	}
+	.pt-#{$s}px, .py-#{$s}px, .p-#{$s}px {	padding-top:   #{$s}px !important;	}
+	.pb-#{$s}px, .py-#{$s}px, .p-#{$s}px {	padding-bottom: #{$s}px !important;	}
+
+	.ios{
+		.pl-ios-#{$s}px, .px-ios-#{$s}px, .p-ios-#{$s}px {	padding-left: #{$s}px !important;	}
+		.pr-ios-#{$s}px, .px-ios-#{$s}px, .p-ios-#{$s}px {	padding-right: #{$s}px !important;	}
+		.pt-ios-#{$s}px, .py-ios-#{$s}px, .p-ios-#{$s}px {	padding-top:   #{$s}px !important;	}
+		.pb-ios-#{$s}px, .py-ios-#{$s}px, .p-ios-#{$s}px {	padding-bottom: #{$s}px !important;	}
+	}
+	
+	.pl-#{$s}vw {	padding-left: #{$s}vw !important;	}
+	.pr-#{$s}vw {	padding-right: #{$s}vw !important;	}
+	.pt-#{$s}vh {	padding-top:   #{$s}vh !important;	}
+    .pb-#{$s}vh {	padding-bottom: #{$s}vh !important;	}
+	
+	.border-radius-#{$s} {border-radius: #{$s}% !important;}
+	.border-radius-#{$s}px {border-radius: #{$s}px !important;}
+	.border-tl-radius-#{$s}px {border-top-left-radius: #{$s}px !important;}
+	.border-bl-radius-#{$s}px {border-bottom-left-radius: #{$s}px !important;}
+	.border-tr-radius-#{$s}px {border-top-right-radius: #{$s}px !important;}
+	.border-br-radius-#{$s}px {border-bottom-right-radius: #{$s}px !important;}
+}
+
+@for $s from 0 to 200
+{
+	.ios{
+		.ios-h-#{$s}{ height: #{$s}% !important;	}
+		.ios-h-#{$s}px{ height: #{$s}px !important;	}
+		.ios-h-#{$s}vh{ height: #{$s}vh !important;	}
+		.ios-h-#{$s}vw{ height: #{$s}vw !important;	}
+		.ios-h-max-#{$s}px{ max-height: #{$s}px !important;	}
+		.ios-h-max-#{$s}{ max-height: #{$s}% !important;	}
+		.ios-h-max-#{$s}vh{ max-height: #{$s}vh !important;	}
+		.ios-w-#{$s}{ width: #{$s}% !important;	} 	
+		.ios-w-#{$s}px{ width: #{$s}px !important;	}
+		.ios-w-#{$s}vw{ width: #{$s}vw !important;	}
+		.ios-w-#{$s}vh{ width: #{$s}vh !important;	}
+		.ios-w-max-#{$s}px{ max-width: #{$s}px !important;	}	
+		.ios-w-max-#{$s}{ max-width: #{$s}% !important;	}	
+		.ios-h-calc-#{$s}px{ height: calc(100% - #{$s}px) !important;	}	
+		
+		.ios-top-#{$s}px{ top: #{$s}px !important;	}
+		.ios-top--#{$s}px{ top: -#{$s}px !important;	}
+		.ios-top-#{$s}{ top: #{$s}% !important;	}
+
+		.ios-bottom-#{$s}px{ bottom: #{$s}px !important;	}
+		.ios-bottom-#{$s}{ bottom: #{$s}% !important;	}
+
+		.ios-left-#{$s}px{ left: #{$s}px !important;	}
+		.ios-left--#{$s}px{ left: -#{$s}px !important;	}
+		.ios-left-#{$s}{ left: #{$s}% !important;	}
+
+		.ios-right-#{$s}px{ right: #{$s}px !important;	}
+		.ios-right--#{$s}px{ right: -#{$s}px !important;	}
+		.ios-right-#{$s}{ right: #{$s}% !important;	}
+
+		.ios-z-#{$s}{ z-index: #{$s} !important;	}
+	}
+	.h-#{$s}{ height: #{$s}% !important;	}
+	.h-#{$s}px{ height: #{$s}px !important;	}
+	.h-#{$s}vh{ height: #{$s}vh !important;	}
+	.h-#{$s}vw{ height: #{$s}vw !important;	}
+	.h-max-#{$s}px{ max-height: #{$s}px !important;	}
+	.h-max-#{$s}{ max-height: #{$s}% !important;	}
+	.h-max-#{$s}vh{ max-height: #{$s}vh !important;	}
+	
+	.h-min-#{$s}vh{ min-height: #{$s}vh !important;	}
+	.w-#{$s}{ width: #{$s}% !important;	} 	
+	.w-#{$s}px{ width: #{$s}px !important;	}
+	.w-#{$s}vw{ width: #{$s}vw !important;	}
+	.w-#{$s}vh{ width: #{$s}vh !important;	}
+    .w-max-#{$s}px{ max-width: #{$s}px !important;	}	
+    .w-max-#{$s}{ max-width: #{$s}% !important;	}	
+    .h-calc-#{$s}px{ height: calc(100% - #{$s}px) !important;	}	
+	.top-#{$s}px{ top: #{$s}px !important;	}
+	.top--#{$s}px{ top: -#{$s}px !important;	}
+	.top-#{$s}{ top: #{$s}% !important;	}
+	.top-#{$s}vw { top: #{$s}vw !important;	}
+	.bottom-#{$s}px{ bottom: #{$s}px !important;	}
+	.left-#{$s}px{ left: #{$s}px !important;	}
+	.left--#{$s}px{ left: -#{$s}px !important;	}
+	.right-#{$s}px{ right: #{$s}px !important;	}
+	.right--#{$s}px{ right: -#{$s}px !important;	}
+	.bottom-#{$s}{ bottom: #{$s}% !important;	}
+	.left-#{$s}{ left: #{$s}% !important;	}
+	.right-#{$s}{ right: #{$s}% !important;	}
+
+}
+
+@for $s from 0 to 250
+{
+	.z-#{$s}{ z-index: #{$s} !important;	}
+	.z--#{$s}{ z-index: -#{$s} !important;	}
+}

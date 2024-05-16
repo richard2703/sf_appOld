@@ -1,0 +1,19 @@
+#menu
+{
+    background-color: $rojo-rosado !important;
+    .page-content
+    {
+        padding-top: 0px !important;
+        background-color: $rojo-rosado !important;
+    }
+}
+.border-botom-gray
+{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    button
+    {
+        border-color: transparent !important;
+        border-radius: 0px !important;
+        height: 100% !important;
+    }
+}

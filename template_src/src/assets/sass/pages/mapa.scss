@@ -1,0 +1,56 @@
+.opciones-mapa
+{
+    position: absolute;
+    top:0;
+    left:0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.247) 0%, #ffffff 70%) !important;
+    z-index: 1;
+}
+.mapa-mundo
+{
+    position: relative;
+    height: 100vh;
+}
+.oferta-mapa
+{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    background: #F9FAFC;
+}
+.boton-localizacion
+{
+    right: 25px;
+    bottom: 25px;
+    box-shadow: 0px 0px 4px #717171;
+    &.active{
+        bottom: 29vh;
+    }
+}
+.input-busqueda
+{
+    z-index: 1000;
+    top:40px;
+    left:0px;
+    .input{
+        box-shadow:0px 0px 3px 1px #a2a1a1;
+        border-radius: 7px;
+        overflow: hidden;
+    }
+}
+.busqueda-resultados
+{
+    z-index: 10;
+    top:0;
+    left:0px;
+    background: #F9FAFC;
+    padding-top: 93px;
+}
+.busqueda-resultados-filtro
+{
+    z-index: 10;
+    top:0;
+    left:0px;
+    background: #F9FAFC;
+    padding-top: 137px;
+}

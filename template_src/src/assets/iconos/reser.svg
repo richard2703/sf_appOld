@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Tab bar/ic/Inicio</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Tab-bar/ic/Inicio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-13" transform="translate(1.000000, 0.000000)" stroke="#242424">
+            <path d="M6.5,5 C6.5,2.515 8.515,0.5 11,0.5 C13.485,0.5 15.5,2.515 15.5,5" id="Stroke-1"></path>
+            <path d="M6.5386,3.7778 C6.0586,3.6008 5.5416,3.4998 4.9996,3.4998 C2.5146,3.4998 0.4996,5.5148 0.4996,7.9998 C0.4996,10.4858 2.5146,12.4998 4.9996,12.4998" id="Stroke-3"></path>
+            <path d="M17,12.5 C19.485,12.5 21.5,10.485 21.5,8 C21.5,5.515 19.485,3.5 17,3.5 C16.443,3.5 15.913,3.607 15.42,3.793" id="Stroke-5"></path>
+            <polyline id="Stroke-7" points="18.2202 12.3301 16.5002 23.5001 5.5002 23.5001 3.7802 12.3301"></polyline>
+            <path d="M17.73,15.5 L15,15.5" id="Stroke-9"></path>
+            <path d="M17,19.5 L15,19.5" id="Stroke-11"></path>
+        </g>
+    </g>
+</svg>
