@@ -147,7 +147,10 @@
 
                     <div class="row w-100 m-0">
                         <div class="row w-100 m-0 pt-3 pb-3 px-3">
-                            <botonApp tipo="azul" texto="Confirmar pedido" radius="10px" @click="next()"/>
+                            <div v-if="metodoPagoId === 'monedero' && showSpecialField" class="w-100 m-0 py-2 text-danger">
+                                No puedes usar el monedero como método de pago.
+                            </div>
+                            <botonApp tipo="azul" texto="Confirmar pedido" radius="10px" @click="next()" :disabled="metodoPagoId === 'monedero' && showSpecialField"/>
                         </div>
                     </div>
                 </div>
@@ -185,6 +188,9 @@ const moment = require('moment')
             paraDomicilio(){ return this.productos.some(x=>{return x.tipo_envio == 'domicilio' }) },
             domicilio(){return this.$store.getters.carritoFind('domicilios','domicilio');},
             usuario(){return this.$store.getters.carritoObject('usuario') || {};},
+            showSpecialField() {
+            return this.productos.some(producto => producto.id < 4);
+        },
 
         },
         mounted(){
